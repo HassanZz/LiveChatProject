@@ -1,4 +1,4 @@
-# LiveChatProject
+# Live Chat Project
 
 The aim of this project is to create an online chat that allows users to chat in different rooms.
 The project uses Firebase as the backend and JavaScript as the front end.
