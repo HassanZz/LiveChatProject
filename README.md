@@ -35,7 +35,8 @@ points and then combines every module your project needs into one or more bundle
 To run funny-quiz, Just use steps below:
 1. Install `javascript` in your system.
 2. Clone the project `https://github.com/HassanZz/LiveChatProject/`.
-3. go to `file:///directory/index.html` to see your funny-quiz version.
+3. go to terminal and write: `npm install`. this line will install node modules of used libraries.
+4. go to `file:///directory/index.html` to see your liveChat version.
 
 ## TODO
 - [ ] make an .env file and insert firebase password into it.
