@@ -1,7 +1,7 @@
 # Live Chat Project
 
 The aim of this project is to create an online chat that allows users to chat in different rooms.
-The project uses Firebase as the backend and JavaScript as the front end.
+The project uses Firebase as the dataBase and JavaScript as the front end.
 
 
 ## ScreenShots:
@@ -32,7 +32,7 @@ Firebase provides tools for tracking analytics, reporting and fixing app crashes
 points and then combines every module your project needs into one or more bundles, which are static assets to serve your content from. </p>
 
 ## How to run
-To run funny-quiz, Just use steps below:
+To run liveChatProject, Just use steps below:
 1. Install `javascript` in your system.
 2. Clone the project `https://github.com/HassanZz/LiveChatProject/`.
 3. go to terminal and write: `npm install`. this line will install node modules of used libraries.
@@ -43,4 +43,4 @@ To run funny-quiz, Just use steps below:
 - [ ] Add login page.
 - [ ] Add private chat sending feature.
 - [ ] Insert specific themes for each room.
-- [ ] add tests of code
+- [ ] add some tests.
