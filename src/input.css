@@ -3,8 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.nav-button {
+  @apply hover:scale-125 transition ease-out duration-100 cursor-pointer;
+}
+
 .btn {
-  @apply bg-green-400 rounded-sm text-white;
+  @apply bg-green-400 rounded-sm text-white hover:bg-green-300 transition ease-out duration-300 cursor-pointer;
 }
 
 .list-group-item {
