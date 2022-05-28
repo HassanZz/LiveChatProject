@@ -3,7 +3,8 @@ const path = require("path");
 module.exports = {
   mode: "development",
   devServer: {
-    watchFiles: ["src/**/*"],
+    static: "dist",
+    watchContentBase: true,
   },
   module: {
     rules: [

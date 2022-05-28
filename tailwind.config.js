@@ -1,7 +1,9 @@
 module.exports = {
-  content: ["./index.html"],
+  content: ["./dist/*"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: { body: ["Nunito"] },
+    },
   },
   plugins: [],
 };
