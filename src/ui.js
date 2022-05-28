@@ -1,6 +1,5 @@
 // render chat templates to the DOM
 // clear the list of chats (when the room changes)
-
 class ChatUi {
   constructor(list) {
     this.list = list;
@@ -14,9 +13,9 @@ class ChatUi {
     });
     const html = `
     <li class="list-group-item">
-    <span class="username">${data.username}</span>
+    <span class="username font-bold">${data.username}</span>
     <span class="message">${data.message}</span>
-    <div class="time">${when}</div>
+    <div class="time text-gray-300">${when}</div>
     </li>
       `;
     this.list.innerHTML += html;

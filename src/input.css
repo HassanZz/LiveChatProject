@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list-group-item {
+  border: 1px;
+  border-top: 10px;
+  border-top-color: black;
+}
+
+.chat-list {
+  border: 3px;
+}
